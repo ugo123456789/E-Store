@@ -25,7 +25,7 @@ interface CategoryPageProps {
   }
 }
 
-     {/* @ts-expect-error Server Component */}
+     {/* @ts-ignore */}
 const CategoryPage: React.FC<CategoryPageProps> = async ({ 
   params, 
   searchParams
