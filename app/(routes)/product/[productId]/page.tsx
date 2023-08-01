@@ -13,7 +13,7 @@ interface ProductPageProps {
     productId: string;
   },
 }
-     {/* @ts-expect-error Server Component */}
+     {/* @ts-ignore */}
 const ProductPage: React.FC<ProductPageProps> = async ({ 
   params
  }) => {
